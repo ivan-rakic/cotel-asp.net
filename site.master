@@ -1,0 +1,153 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="site.master.cs" Inherits="site" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>COTEL</title>
+    <meta name="author" content="Web eZon" />
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="Copyright" content="Cotel" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+    <link href="/assets/css/reset.css" rel="stylesheet" />
+    <link href="/assets/css/style.css" rel="stylesheet" />
+    <!-- FACEBOOK OG -->
+    <meta property="og:title" content="Cotel" />
+    <meta property="og:description" content="技术与教育相结合，以教育工作者的心态来服务学生，为每位学生赢得美好的未来，正是我们一直以来的努力所在！" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="http://www.cotel.com.cn" />
+    <meta property="og:image" content="http://www.cotel.org.cn/assets/images/cotel-logo.svg" />
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <header>
+            <div class="header-holder">
+                <div class="container clearfix">
+                    <div class="h-left">
+                        <a href="/Default.aspx">
+                            <img id="logo-big" src="/assets/images/CotelLogo.svg" alt="Cotel Logo" /></a>
+                        <a href="/Default.aspx">
+                            <img id="logo-small" src="/assets/images/CotelLogo-small.svg" alt="Cotel Logo" /></a>
+                        <p>Innovation for next generation!</p>
+
+                    </div>
+                    <div class="h-right">
+                        <div class="menu-div">
+                            <nav>
+                                <ul class="main-menu">
+                                    <li class="main-menu-li" id="li-home"><a class="n-menu-li-a" href="/Default.aspx">主页</a></li>
+                                    <li class="main-menu-li" id="li-edu"><a class="n-menu-li-a">教育</a>
+                                        <ul class="li-edu-submenu">
+                                            <li><a href="/Education/Clearing-Adjustment.aspx">Clearing & Adjustment</a></li>
+                                            <%--<li><a href="/Education/Transfer.aspx">Transfer</a></li>--%>
+                                            <li><a href="/Education/University.aspx">大学</a></li>
+                                            <li><a href="/Education/Boarding-School.aspx">私立中学</a></li>
+                                            <li><a href="/Education/Language.aspx">语言</a></li>
+                                            <li><a href="/Education/Visa.aspx">签证</a></li>
+                                            <%--<li><a href="SchoolsList.aspx">List</a></li>--%>
+                                        </ul>
+                                    </li>
+                                    <li class="main-menu-li" id="li-tech"><a class="n-menu-li-a" href="/Technology.aspx">技术</a></li>
+                                    <li class="main-menu-li" id="li-life"><a class="n-menu-li-a">校园生活</a>
+                                        <ul class="li-life-submenu">
+                                            <li><a href="/StudentLife/Accommodation.aspx">住宿</a></li>
+                                            <li><a href="/StudentLife/Transportation.aspx">交通</a></li>
+                                            <li><a href="/StudentLife/Entertainment.aspx">娱乐</a></li>
+                                            <li><a href="/StudentLife/Sports.aspx">运动</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="main-menu-li" id="li-contact"><a class="n-menu-li-a" href="/Contact.aspx">联系我们</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+                <a id="menu-btn">
+                    <img src="/assets/images/menu-icon.svg" alt="Cotel Menu" />
+                </a>
+            </div>
+        </header>
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+        <footer>
+            <div class="footer-up clearfix">
+                <div class="container">
+                    <div class="footer-up-header">
+                        <a href=" #">
+                            <img src="/assets/images/CotelLogo.svg" alt="About Cotel" />
+                        </a>
+                    </div>
+                    <div class="footer-floater-div footer-info">
+                        <h4>ABOUT COTEL</h4>
+                        <%--<div class="footer-divider-line"></div>--%>
+                        <p>技术与教育相结合，以教育工作者的心态来服务学生，为每位学生赢得美好的未来，正是我们一直以来的努力所在！</p>
+                        <a href="http://www.thescholar.co.uk/" target="_blank" title="The Schoolar Uk">
+                            <img src="/assets/images/scholar-logo.png" alt="Schoolar Uk, UK Students, Education, University News" /></a>
+                        <a href="https://uktong.org.uk/" target="_blank" title="UKTong">
+                            <img src="/assets/images/UKtongLogo.png" alt="UkTong, Students, Uk Education, University" /></a>
+                        <p>In association with UKtong and ScholarUK.</p>
+                    </div>
+
+                    <div class="footer-floater-div footer-contact">
+                        <h4>CONTACT INFO</h4>
+                        <%--<div class="footer-divider-line"></div>--%>
+                        <p>email: <b><a href="mailto:wechat@cotel.com.cn">wechat@cotel.com.cn</a></b></p>
+                        <p>web: <b><a href="http://cotel.org.cn/" target="_blank">www.cotel.com.cn</a></b></p>
+                        <p>hotline: <b>4 000 182 896</b></p>
+                        <p>
+                            <a href="http://weibo.com/coteluk?refer_flag=1001030101_&is_hot=1" title="Weibo" target="_blank">
+                                <img id="weiboImg2" src="/assets/images/social/weibo.svg" alt="Cotel Weibo" />
+                            </a>
+                            <a href="https://www.facebook.com/coteleducation/" title="Facebook" target="_blank">
+                                <img id="facebookImg2" src="/assets/images/social/facebook.svg" alt="Cotel Facebook" />
+                            </a>
+                            <a href="https://www.instagram.com/cotel_chn/" title="Instagram" target="_blank">
+                                <img id="instagramImg2" src="/assets/images/social/instagram.svg" alt="Cotel Instagram" />
+                            </a>
+                        </p>
+                    </div>
+                    <div class="footer-floater-div footer-sitemap">
+                        <h4>QUICK LINKS</h4>
+                        <%--<div class="footer-divider-line"></div>--%>
+                        <ul class="sitemap-sub-ul">
+                            <li><a href="/Technology.aspx">Technology - 技术</a></li>
+                            <li><a href="/Education/Clearing-Adjustment.aspx">Clearing & Adjustment</a></li>
+                            <li><a href="/Education/University.aspx">University - 大学</a></li>
+                            <li><a href="/Education/Boarding-School.aspx">Boarding School - 私立中学</a></li>
+                            <li><a href="/Education/Language.aspx">Language - 语言</a></li>
+                            <li><a href="/Education/Visa.aspx">Visa - 签证</a></li>
+                            <li><a href="/StudentLife/Accommodation.aspx">Accommodation - 住宿</a></li>
+                            <li><a href="/StudentLife/Transportation.aspx">Transportation - 交通</a></li>
+                            <li><a href="/StudentLife/Entertainment.aspx">Entertainment - 娱乐</a></li>
+                            <li><a href="/StudentLife/Sports.aspx">Sports - 运动</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-down">
+                <div class="container">
+                    <p><small>&copy; Copyright - COTEL 2018. All Rights Reserved.</small></p>
+                </div>
+            </div>
+        </footer>
+
+        <!-- Grab Google CDN's jQuery. fall back to local if necessary -->
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script>window.jQuery || document.write("<script src='assets/js/libs/jquery-1.11.3.min.js'>\x3C/script>")</script>
+        <!-- this is where we put our custom functions -->
+        <!-- don't forget to concatenate and minify for production -->
+        <script src="/assets/js/functions.js?version=<%=DateTime.Now.ToString("yyyyMMddHHmmss")%>"></script>
+        <script>$(document).ready(initPage);</script>
+    </form>
+</body>
+</html>

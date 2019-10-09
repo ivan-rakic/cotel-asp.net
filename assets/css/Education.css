@@ -1,0 +1,810 @@
+﻿.clearing-header {
+    margin-top: 60px;
+    width: 100%;
+    min-height: 350px;
+    background-image: url('../images/Education/clearing-header.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.university-header {
+    margin-top: 60px;
+    width: 100%;
+    min-height: 350px;
+    background-color: red;
+    background-image: url('../images/Education/university-header.jpg');
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+}
+
+.boarding-header {
+    margin-top: 60px;
+    width: 100%;
+    min-height: 350px;
+    background-color: red;
+    background-image: url('../images/Education/boarding-header.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.language-header {
+    margin-top: 60px;
+    width: 100%;
+    min-height: 350px;
+    background-image: url('../images/Education/ielts-header.jpg');
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+}
+
+.visa-header {
+    margin-top: 60px;
+    width: 100%;
+    min-height: 350px;
+    background-color: red;
+    background-image: url('../images/Education/visa-header.jpg');
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+}
+
+.edu-paper-section {
+    margin-top: 35px;
+    box-shadow: 0px 0px 10px gray;
+    position: relative;
+}
+
+    .edu-paper-section:before {
+        position: absolute;
+        top: -22px;
+        left: 15px;
+        width: 70px;
+        height: 80px;
+        content: '';
+        background-image: url('../images/paper-sec-cliper.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+    }
+
+
+
+.expander {
+    display: block;
+    width: 100%;
+    padding: 20px;
+    height: 10px;
+}
+
+
+.edu-main-article {
+    background-image: url('../images/blue-watermark.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.h2-orangeish {
+    display: block;
+    text-align: center;
+    padding: 15px;
+    padding-top: 40px;
+    font-size: 1.8rem;
+    color: #000;
+    background-color: white;
+    background-image: url('../images/lined-paper-2.jpg');
+}
+
+.h2-holder {
+    padding: 10px 25px;
+    margin: 0 auto;
+    width: 100%;
+    background-color: white;
+    background-image: url('../images/lined-paper-2.jpg');
+}
+
+.edu-paper-section img {
+    box-shadow: 1px 2px 4px gray;
+}
+
+    .edu-paper-section img:nth-child(even) {
+        border: 4px solid green;
+    }
+
+    .edu-paper-section img:nth-child(odd) {
+        border: 4px solid skyblue;
+    }
+
+
+
+.h2-holder p {
+    /*padding: 20px;*/
+}
+
+
+/* --- CLEARTIN AND ADJUSTEMENT------------------*/
+
+.clearing-header div.container {
+    padding-top: 120px;
+    text-align: left;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.clearing-header h1 strong {
+    color: orangered;
+}
+
+
+.clearing-header div p {
+    color: white;
+    margin-left: 5%;
+    margin-top: 10px;
+}
+
+.clearing-header h1 {
+    display: inline-block;
+    font-size: 2rem;
+    padding: 10px 20px;
+    color: #333;
+    text-align: center;
+    background-color: rgba(255,255,255,0.8);
+    box-shadow: 2px 2px 3px #555;
+}
+
+.clearing-header a {
+    display: inline-block;
+    font-size: 1rem;
+    padding: 5px 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    background-color: rgb(40,160,230);
+    transition: 0.5s ease-in-out;
+    box-shadow: 2px 2px 3px #555;
+    border: 1px solid rgb(60,180,240);
+}
+
+    .clearing-header a:hover {
+        border: 1px solid white;
+    }
+
+.high-p-div, .high-p-div-wimg {
+    margin: 30px 0;
+    padding: 15px 10%;
+}
+
+    .high-p-div p {
+        color: black;
+        font-size: 1.2rem;
+        padding: 60px;
+        line-height: 160%;
+        position: relative;
+        background-color: white;
+        box-shadow: 0px 2px 4px gray;
+        background-image: url('../images/Education/note-back.png');
+        background-position: top right;
+        background-repeat: no-repeat;
+    }
+
+    .high-p-div-wimg p {
+        color: black;
+        font-size: 1.2rem;
+        padding: 60px;
+        padding-right: 140px;
+        line-height: 160%;
+        position: relative;
+        background-color: white;
+        box-shadow: 1px 3px 5px silver;
+        background-image: url('../images/Education/note-back.png');
+        background-position: bottom right;
+        background-repeat: no-repeat;
+    }
+
+        .high-p-div p:before, .high-p-div-wimg p:before {
+            position: absolute;
+            content: '';
+            top: -10px;
+            left: 0px;
+            padding: 25px;
+            background-image: url('../images/point-icon-1.png');
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: contain;
+        }
+
+    .high-p-div p:after {
+        position: absolute;
+        content: '';
+        top: -10px;
+        right: -5px;
+        padding: 25px;
+        background-image: url('../images/point-icon-2.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+
+    .high-p-div-wimg p:after {
+        position: absolute;
+        content: '';
+        top: -20px;
+        right: -50px;
+        height: 160px;
+        width: 190px;
+        background-image: url('../images/Education/point-icon-hats.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+
+
+    .high-p-div strong, .high-p-div-wimgstrong {
+        color: green;
+    }
+
+.clearing-leads-div {
+    color: black;
+    margin-bottom: 20px;
+}
+
+    .clearing-leads-div p {
+        text-align: center;
+        font-size: 1rem;
+        line-height: 160%;
+        padding-top: 45px;
+        padding-left: 35px;
+        padding-right: 35px;
+    }
+
+    .clearing-leads-div img {
+        margin-left: 15px;
+        width: 45%;
+        float: right;
+        clear: both;
+    }
+
+    .clearing-leads-div p strong {
+        font-weight: bold;
+        color: orange;
+    }
+
+    .clearing-leads-div div {
+        width: 50%;
+        float: left;
+        text-align: left;
+        padding: 5px;
+    }
+
+    .clearing-leads-div div {
+        width: 50%;
+        float: left;
+        text-align: left;
+        padding: 5px;
+    }
+
+
+        .clearing-leads-div div div {
+            float: none;
+            padding: 10px;
+            display: inline-block;
+            width: 100%;
+            text-align: left;
+        }
+
+        .clearing-leads-div div img {
+            display: block;
+            width: 100%;
+        }
+
+
+    .clearing-leads-div a {
+        text-decoration: none;
+        display: inline-block;
+        margin: 5px;
+        font-size: 1rem;
+        padding: 10px;
+        color: green;
+        cursor: pointer;
+        transition: 0.5s ease-in-out;
+        border-radius: 7px;
+        text-align: center;
+        border: 1px solid transparent;
+    }
+
+        .clearing-leads-div a:hover {
+            border: 1px solid black;
+        }
+
+
+.uni-list-new {
+    padding: 2% 5%;
+}
+
+    .uni-list-new ul {
+        list-style: none;
+    }
+
+        .uni-list-new ul li {
+            min-height: 110px;
+            line-height: 110px;
+            display: block;
+            margin: 8px;
+            background-color: rgba(30,120,190,0.3);
+            vertical-align: central;
+            text-align: left;
+            box-shadow: 1px 1px 3px #555;
+            padding-left: 2%;
+        }
+
+            .uni-list-new ul li:nth-child(even) {
+                background-color: rgba(30,120,190,0.4);
+            }
+
+    .uni-list-new img {
+        vertical-align: middle;
+        display: inline-block;
+        text-decoration: none;
+        border: none !important;
+        box-shadow: none;
+    }
+
+    .uni-list-new a {
+        font-size: 1rem;
+        padding-left: 10px;
+        line-height: 70px;
+        display: inline-block;
+        text-decoration: none;
+        color: black;
+    }
+
+        .uni-list-new a:hover {
+            color: orangered;
+        }
+
+.holder-text-div {
+    padding: 15px 0;
+}
+
+    .holder-text-div p {
+        margin-bottom: 15px;
+    }
+
+
+/* --- CLEARTIN AND ADJUSTEMENT------------------*/
+
+
+/* --- IETSL LANGUAGE ------------------*/
+
+
+.language-header div.container {
+    padding-top: 120px;
+    text-align: left;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.language-header h1 strong {
+    color: darkorange;
+}
+
+
+.language-header h1 {
+    display: inline-block;
+    font-size: 2rem;
+    padding: 10px 20px;
+    color: #333;
+    text-align: center;
+    background-color: rgba(255,255,255,0.8);
+    box-shadow: 2px 2px 3px #555;
+}
+
+.h2-holder-days-list {
+    margin: 0 auto;
+    padding: 20px 10px;
+    margin-bottom: 10px;
+    max-width: 970px;
+    width: 100%;
+}
+
+    .h2-holder-days-list p {
+        margin: 0 auto;
+        width: 96%;
+        margin-bottom: 20px;
+        font-size: 1rem;
+        position: relative;
+        border: 1px solid silver;
+        padding: 5px;
+        padding-left: 30px;
+        border-radius: 3px;
+    }
+
+        .h2-holder-days-list p:nth-child(odd) {
+            background-color: rgba(30,120,190,0.1);
+        }
+
+        .h2-holder-days-list p:nth-child(even) {
+            background-color: rgba(30,120,190,0.3);
+        }
+
+#day1:before {
+    position: absolute;
+    left: -25px;
+    top: -5px;
+    padding: 24px;
+    content: '';
+    background-image: url('../images/Education/day-1.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    /*background-color: lightskyblue;
+    border-radius: 50%;*/
+}
+
+#day2:before {
+    position: absolute;
+    left: -25px;
+    top: -5px;
+    padding: 24px;
+    content: '';
+    background-image: url('../images/Education/day-2.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#day3:before {
+    position: absolute;
+    left: -25px;
+    top: -5px;
+    padding: 24px;
+    content: '';
+    background-image: url('../images/Education/day-3.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#day4:before {
+    position: absolute;
+    left: -25px;
+    top: -5px;
+    padding: 24px;
+    content: '';
+    background-image: url('../images/Education/day-4.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#day5:before {
+    position: absolute;
+    left: -25px;
+    top: -5px;
+    padding: 24px;
+    content: '';
+    background-image: url('../images/Education/day-5.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#day6:before {
+    position: absolute;
+    left: -25px;
+    top: -5px;
+    padding: 24px;
+    content: '';
+    background-image: url('../images/Education/day-6.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#day7:before {
+    position: absolute;
+    left: -25px;
+    top: -5px;
+    padding: 24px;
+    content: '';
+    background-image: url('../images/Education/day-7.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.holder-text-div table {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+    .holder-text-div table tr {
+        background-color: rgba(30,120,190,0.1);
+    }
+
+    .holder-text-div table td {
+        padding: 10px;
+        border: 1px solid silver;
+    }
+
+    .holder-text-div table tr:nth-child(even) {
+        background-color: rgba(30,120,190,0.3);
+    }
+
+.lang-leads {
+    padding: 4% 8%;
+    text-align: center;
+}
+
+    .lang-leads a {
+        font-size: 1rem;
+        line-height: 170%;
+        text-decoration: none;
+    }
+
+/* --- IETSL LANGUAGE ------------------*/
+
+
+/* --- UNIVERSITY ------------------*/
+
+.university-header div.container {
+    padding-top: 120px;
+    text-align: left;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.university-header h1 strong {
+    color: orangered;
+}
+
+
+.university-header div p {
+    color: white;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.university-header h1 {
+    display: inline-block;
+    font-size: 2rem;
+    padding: 10px 20px;
+    color: #333;
+    background-color: rgba(255,255,255,0.8);
+    box-shadow: 2px 2px 3px #555;
+}
+
+
+.holder-text-div-wimg img {
+    float: right;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.holder-text-div-wimgL img {
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.holder-text-div-wimg p {
+    font-size: 1rem;
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+.holder-text-div-wimgL p {
+    font-size: 1rem;
+    margin-bottom: 15px;
+}
+
+.holder-text-div-wimg strong {
+    color: green;
+}
+
+/* --- UNIVERSITY ------------------*/
+
+/* --- BOARDING SCHOOL ------------------*/
+
+.boarding-header div.container {
+    padding-top: 120px;
+    text-align: left;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.boarding-header h1 strong {
+    color: orangered;
+}
+
+
+.boarding-header div p {
+    color: white;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.boarding-header h1 {
+    display: inline-block;
+    font-size: 2rem;
+    padding: 10px 20px;
+    color: #333;
+    background-color: rgba(255,255,255,0.8);
+    box-shadow: 2px 2px 3px #555;
+}
+
+.table-left {
+    text-align: left !important;
+}
+/*.boarding-article .holder-text-div-wimg p {
+    text-align: right;
+}
+
+.boarding-article .holder-text-div-wimg p {
+    text-align: right;
+}*/
+/* --- BOARDING SCHOOL ------------------*/
+/* --- CLEARTIN AND ADJUSTEMENT------------------*/
+.visa-header div.container {
+    padding-top: 120px;
+    text-align: left;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+
+.visa-header h1 {
+    display: inline-block;
+    font-size: 2rem;
+    padding: 10px 20px;
+    color: #333;
+    text-align: center;
+    background-color: rgba(255,255,255,0.8);
+    box-shadow: 2px 2px 3px #555;
+}
+
+.visa-header div p {
+    color: white;
+    margin-left: 5%;
+    margin-top: 10px;
+}
+
+.visa-header a {
+    display: inline-block;
+    font-size: 1rem;
+    padding: 5px 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    background-color: rgb(40,160,230);
+    transition: 0.5s ease-in-out;
+    box-shadow: 2px 2px 3px #555;
+    border: 1px solid rgb(60,180,240);
+}
+
+.visa-header div p strong {
+    color: black;
+}
+
+
+.visa-header a:hover {
+    border: 1px solid white;
+}
+
+.visa-section .h2-holder img {
+}
+
+.visa-section p {
+}
+
+
+
+/* Media queries
+-------------------------------------------------------------------------------*/
+
+
+@media screen and (max-width: 800px) {
+
+
+    .clearing-header div.container {
+        padding-top: 80px;
+    }
+
+    .university-header div.container {
+        padding-top: 80px;
+    }
+
+    .boarding-header div.container {
+        padding-top: 80px;
+    }
+
+    .visa-header div.container {
+        padding-top: 80px;
+    }
+
+    .language-header div.container {
+        padding-top: 80px;
+    }
+
+
+    .high-p-div {
+        margin: 20px 0;
+        padding: 10px 2%;
+    }
+
+    .high-p-div-wimg {
+        margin: 20px 0;
+        margin-right: 35px;
+        padding: 10px 0%;
+    }
+
+        .high-p-div-wimg p {
+            font-size: 1rem;
+            padding-left: 15px;
+        }
+
+
+    .clearing-leads-div div {
+        width: 100%;
+        float: none;
+        text-align: center;
+        padding: 0px;
+    }
+
+    .clearing-leads-div p {
+        padding-top: 10px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .clearing-leads-div div div {
+        float: none;
+        padding: 10px;
+        display: inline-block;
+        width: 100%;
+        text-align: center;
+    }
+
+    .uni-list-new {
+        padding: 0;
+    }
+
+        .uni-list-new ul li {
+            padding: 10px;
+            min-height: 100px;
+            line-height: initial;
+            margin: 10px;
+        }
+
+
+        .uni-list-new a {
+            font-size: 1rem;
+            padding: 10px;
+            line-height: initial;
+        }
+}
+
+@media screen and (max-width: 540px) {
+
+    .boarding-school-res img {
+        width: 100%;
+    }
+
+    .boarding-school-res .holder-text-div-wimg p {
+        text-align: left !important;
+    }
+
+    .holder-text-div table {
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+    }
+}

@@ -1,0 +1,536 @@
+﻿/* --- CAMBRIDGE SCHOOL ---------------------------------------- */
+
+.Cambridge-header {
+    margin-top: 60px;
+    width: 100%;
+    min-height: 350px;
+    background-image: url('../images/Education/schools/cambridge-header.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+    .Cambridge-header div.container {
+        padding-top: 120px;
+        text-align: left;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .Cambridge-header h1 strong {
+        color: orangered;
+    }
+
+    .Cambridge-header h1 {
+        display: inline-block;
+        font-size: 2rem;
+        padding: 10px 20px;
+        color: #333;
+        text-align: center;
+        background-color: rgba(255,255,255,0.8);
+        box-shadow: 2px 2px 3px #555;
+    }
+
+/* --- CASS SCHOOL ---------------------------------------- */
+
+.Cass-header {
+    margin-top: 60px;
+    width: 100%;
+    min-height: 350px;
+    background-image: url('../images/Education/schools/cass-header.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+    .Cass-header div.container {
+        padding-top: 120px;
+        text-align: left;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .Cass-header h1 strong {
+        color: orangered;
+    }
+
+    .Cass-header h1 {
+        display: inline-block;
+        font-size: 2rem;
+        padding: 10px 20px;
+        color: #333;
+        text-align: center;
+        background-color: rgba(255,255,255,0.8);
+        box-shadow: 2px 2px 3px #555;
+    }
+
+/* --- IMPERIAL COLLEGE LONDON ---------------------------------------- */
+
+.Imperial-header {
+    margin-top: 60px;
+    width: 100%;
+    min-height: 350px;
+    background-image: url('../images/Education/schools/imperial-header.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+    .Imperial-header div.container {
+        padding-top: 120px;
+        text-align: left;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .Imperial-header h1 strong {
+        color: orangered;
+    }
+
+    .Imperial-header h1 {
+        display: inline-block;
+        font-size: 2rem;
+        padding: 10px 20px;
+        color: #333;
+        text-align: center;
+        background-color: rgba(255,255,255,0.8);
+        box-shadow: 2px 2px 3px #555;
+    }
+
+/* --- MANCHESTER COLLEGE LONDON ---------------------------------------- */
+
+.Manchester-header {
+    margin-top: 60px;
+    width: 100%;
+    min-height: 350px;
+    background-image: url('../images/Education/schools/manchester-busniss-header.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+    .Manchester-header div.container {
+        padding-top: 120px;
+        text-align: left;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .Manchester-header h1 strong {
+        color: orangered;
+    }
+
+    .Manchester-header h1 {
+        display: inline-block;
+        font-size: 2rem;
+        padding: 10px 20px;
+        color: #333;
+        text-align: center;
+        background-color: rgba(255,255,255,0.8);
+        box-shadow: 2px 2px 3px #555;
+    }
+
+/* --- MANCHESTER COLLEGE LONDON ---------------------------------------- */
+
+.LondonEPS-header {
+    margin-top: 60px;
+    width: 100%;
+    min-height: 350px;
+    background-image: url('../images/Education/schools/londonEPS-header.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+    .LondonEPS-header div.container {
+        padding-top: 120px;
+        text-align: left;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .LondonEPS-header h1 strong {
+        color: orangered;
+    }
+
+    .LondonEPS-header h1 {
+        display: inline-block;
+        font-size: 2rem;
+        padding: 10px 20px;
+        color: #333;
+        text-align: center;
+        background-color: rgba(255,255,255,0.8);
+        box-shadow: 2px 2px 3px #555;
+    }
+
+/* --- UNIVERSITY OF Edinburgh ---------------------------------------- */
+
+.Edinburgh-header {
+    margin-top: 60px;
+    width: 100%;
+    min-height: 350px;
+    background-image: url('../images/Education/schools/Edinburgh-header.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+    .Edinburgh-header div.container {
+        padding-top: 120px;
+        text-align: left;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .Edinburgh-header h1 strong {
+        color: orangered;
+    }
+
+    .Edinburgh-header h1 {
+        display: inline-block;
+        font-size: 2rem;
+        padding: 10px 20px;
+        color: #333;
+        text-align: center;
+        background-color: rgba(255,255,255,0.8);
+        box-shadow: 2px 2px 3px #555;
+    }
+
+
+/* --- UNIVERSITY OF LEEDS ---------------------------------------- */
+
+.Leeds-header {
+    margin-top: 60px;
+    width: 100%;
+    min-height: 350px;
+    background-image: url('../images/Education/schools/Leeds-header.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+    .Leeds-header div.container {
+        padding-top: 120px;
+        text-align: left;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .Leeds-header h1 strong {
+        color: orangered;
+    }
+
+    .Leeds-header h1 {
+        display: inline-block;
+        font-size: 2rem;
+        padding: 10px 20px;
+        color: #333;
+        text-align: center;
+        background-color: rgba(255,255,255,0.8);
+        box-shadow: 2px 2px 3px #555;
+    }
+
+/* --- UNIVERSITY OF MANCHESTER ---------------------------------------- */
+
+
+.manchester-uni-header {
+    margin-top: 60px;
+    width: 100%;
+    min-height: 350px;
+    background-image: url('../images/Education/schools/manchester-uni-header.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+    .manchester-uni-header div.container {
+        padding-top: 120px;
+        text-align: left;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .manchester-uni-header h1 strong {
+        color: orangered;
+    }
+
+    .manchester-uni-header h1 {
+        display: inline-block;
+        font-size: 2rem;
+        padding: 10px 20px;
+        color: #333;
+        text-align: center;
+        background-color: rgba(255,255,255,0.8);
+        box-shadow: 2px 2px 3px #555;
+    }
+
+/* --- UNIVERSITY OF Sheffield ---------------------------------------- */
+
+
+.Sheffield-header {
+    margin-top: 60px;
+    width: 100%;
+    min-height: 350px;
+    background-image: url('../images/Education/schools/Sheffield-header.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+    .Sheffield-header div.container {
+        padding-top: 120px;
+        text-align: left;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .Sheffield-header h1 strong {
+        color: orangered;
+    }
+
+    .Sheffield-header h1 {
+        display: inline-block;
+        font-size: 2rem;
+        padding: 10px 20px;
+        color: #333;
+        text-align: center;
+        background-color: rgba(255,255,255,0.8);
+        box-shadow: 2px 2px 3px #555;
+    }
+
+
+/* --- UNIVERSITY OF Warwick ---------------------------------------- */
+
+
+.Warwick-header {
+    margin-top: 60px;
+    width: 100%;
+    min-height: 350px;
+    background-image: url('../images/Education/schools/warwick-header.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+    .Warwick-header div.container {
+        padding-top: 120px;
+        text-align: left;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .Warwick-header h1 strong {
+        color: orangered;
+    }
+
+    .Warwick-header h1 {
+        display: inline-block;
+        font-size: 2rem;
+        padding: 10px 20px;
+        color: #333;
+        text-align: center;
+        background-color: rgba(255,255,255,0.8);
+        box-shadow: 2px 2px 3px #555;
+    }
+
+/* --- UNIVERSITY OF LONDON COLLEGE ---------------------------------------- */
+
+
+.cLondon-header {
+    margin-top: 60px;
+    width: 100%;
+    min-height: 350px;
+    background-image: url('../images/Education/schools/college-london-header.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+    .cLondon-header div.container {
+        padding-top: 120px;
+        text-align: left;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .cLondon-header h1 strong {
+        color: orangered;
+    }
+
+    .cLondon-header h1 {
+        display: inline-block;
+        font-size: 2rem;
+        padding: 10px 20px;
+        color: #333;
+        text-align: center;
+        background-color: rgba(255,255,255,0.8);
+        box-shadow: 2px 2px 3px #555;
+    }
+
+
+/* --- UNIVERSITY OF Birmingham ---------------------------------------- */
+
+
+.Birmingham-header {
+    margin-top: 60px;
+    width: 100%;
+    min-height: 350px;
+    background-image: url('../images/Education/schools/birmingham-header.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+    .Birmingham-header div.container {
+        padding-top: 120px;
+        text-align: left;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .Birmingham-header h1 strong {
+        color: orangered;
+    }
+
+    .Birmingham-header h1 {
+        display: inline-block;
+        font-size: 2rem;
+        padding: 10px 20px;
+        color: #333;
+        text-align: center;
+        background-color: rgba(255,255,255,0.8);
+        box-shadow: 2px 2px 3px #555;
+    }
+
+/* --- UNIVERSITY OF BRISTOL ---------------------------------------- */
+
+.bristol-header {
+    margin-top: 60px;
+    width: 100%;
+    min-height: 350px;
+    background-image: url('../images/Education/schools/bristol-header.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+    .bristol-header div.container {
+        padding-top: 120px;
+        text-align: left;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .bristol-header h1 strong {
+        color: orangered;
+    }
+
+    .bristol-header h1 {
+        display: inline-block;
+        font-size: 2rem;
+        padding: 10px 20px;
+        color: #333;
+        text-align: center;
+        background-color: rgba(255,255,255,0.8);
+        box-shadow: 2px 2px 3px #555;
+    }
+
+
+/* --- UNIVERSITY OF DURHAM ---------------------------------------- */
+
+.durham-header {
+    margin-top: 60px;
+    width: 100%;
+    min-height: 350px;
+    background-image: url('../images/Education/schools/durham-header.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+    .durham-header div.container {
+        padding-top: 120px;
+        text-align: left;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .durham-header h1 strong {
+        color: orangered;
+    }
+
+    .durham-header h1 {
+        display: inline-block;
+        font-size: 2rem;
+        padding: 10px 20px;
+        color: #333;
+        text-align: center;
+        background-color: rgba(255,255,255,0.8);
+        box-shadow: 2px 2px 3px #555;
+    }
+
+/* --- UNIVERSITY OF LIVERPOOL ---------------------------------------- */
+
+.liverpool-header {
+    margin-top: 60px;
+    width: 100%;
+    min-height: 350px;
+    background-image: url('../images/Education/schools/liverpool-header.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+    .liverpool-header div.container {
+        padding-top: 120px;
+        text-align: left;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .liverpool-header h1 strong {
+        color: orangered;
+    }
+
+    .liverpool-header h1 {
+        display: inline-block;
+        font-size: 2rem;
+        padding: 10px 20px;
+        color: #333;
+        text-align: center;
+        background-color: rgba(255,255,255,0.8);
+        box-shadow: 2px 2px 3px #555;
+    }
+
+/* --- UNIVERSITY OF OXFORD ---------------------------------------- */
+
+.oxford-header {
+    margin-top: 60px;
+    width: 100%;
+    min-height: 350px;
+    background-image: url('../images/Education/schools/oxford-header.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+    .oxford-header div.container {
+        padding-top: 120px;
+        text-align: left;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .oxford-header h1 strong {
+        color: orangered;
+    }
+
+    .oxford-header h1 {
+        display: inline-block;
+        font-size: 2rem;
+        padding: 10px 20px;
+        color: #333;
+        text-align: center;
+        background-color: rgba(255,255,255,0.8);
+        box-shadow: 2px 2px 3px #555;
+    }

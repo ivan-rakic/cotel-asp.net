@@ -1,0 +1,850 @@
+﻿.stuLife-main-article {
+    background-image: url('../images/blue-watermark.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.student-paper-section {
+    margin-top: 35px;
+    box-shadow: 0px 0px 10px gray;
+    position: relative;
+    background-color: white;
+    background-image: url('../images/lined-paper-2.jpg');
+}
+
+    .student-paper-section:before {
+        position: absolute;
+        top: -22px;
+        left: 15px;
+        width: 70px;
+        height: 80px;
+        content: '';
+        background-image: url('../images/paper-sec-cliper.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+    }
+
+    .student-paper-section img {
+        box-shadow: 1px 2px 4px gray;
+    }
+
+        .student-paper-section img:nth-child(even) {
+            border: 4px solid green;
+        }
+
+        .student-paper-section img:nth-child(odd) {
+            border: 4px solid skyblue;
+        }
+
+
+
+.expander {
+    display: block;
+    width: 100%;
+    padding: 20px;
+    height: 10px;
+}
+
+.h2-header {
+    display: inline-block;
+    text-align: center;
+    padding: 15px;
+    margin-bottom: 10px;
+    font-size: 1.8rem;
+    color: #000;
+    background-image: url('../images/StudentLife/blue-mark-header.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.h2-holder:first-of-type {
+    text-align: center;
+    padding: 40px 25px 0px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.h2-holder {
+    text-align: center;
+    padding: 10px 25px 0px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+
+.holder-text-div {
+    padding: 10px 0;
+}
+
+    .holder-text-div p {
+        margin-bottom: 10px;
+        line-height: 160%;
+    }
+
+
+    .holder-text-div h3, .holder-text-div-wimg h3, .holder-text-div-wimgL h3 {
+        font-size: 1.1rem;
+        font-weight: bold;
+        margin-bottom: 10px;
+        text-align: left;
+    }
+
+.holder-text-div-wimg img {
+    float: right;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    width: 50%;
+}
+
+.holder-text-div-wimgL img {
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    width: 60%;
+}
+
+.holder-text-div-wimg p {
+    font-size: 1rem;
+    text-align: left;
+    margin-bottom: 15px;
+    line-height: 160%;
+}
+
+.holder-text-div-wimgL p {
+    font-size: 1rem;
+    margin-bottom: 15px;
+    text-align: left;
+    line-height: 160%;
+}
+
+.holder-text-div-wimg strong, .holder-text-div-wimgL strong, .holder-text-div strong {
+    color: orangered;
+}
+
+
+.a-1 {
+    padding: 8px 10px;
+    color: rgb(30,120,190);
+    font-weight: bold;
+    margin: 5px;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+
+.holder-text-div {
+    text-align: left;
+}
+
+/* ACCOMODATION INFO ------------------------
+    -----------------------------------------------------------------------------------------------*/
+
+.accomodation-header {
+    margin-top: 60px;
+    background-image: url('../images/StudentLife/accommodation-header.jpg');
+    background-position: center;
+    background-size: cover;
+    min-height: 350px;
+}
+
+    .accomodation-header div.container {
+        padding-top: 100px;
+        text-align: left;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .accomodation-header h1 strong {
+        color: orangered;
+    }
+
+
+    .accomodation-header div p {
+        color: white;
+        margin-left: 5%;
+        margin-top: 10px;
+        text-shadow: 1px 1px 1px rgba(0,0,0,0.6);
+    }
+
+    .accomodation-header h1 {
+        display: inline-block;
+        font-size: 2rem;
+        padding: 10px 20px;
+        color: #333;
+        text-align: left;
+        background-color: rgba(255,255,255,0.8);
+        box-shadow: 2px 2px 3px #555;
+    }
+
+    .accomodation-header a {
+        margin-top: 5px;
+        display: inline-block;
+        font-size: 1rem;
+        padding: 5px 20px;
+        text-transform: uppercase;
+        text-decoration: none;
+        color: white;
+        cursor: pointer;
+        background-color: rgb(40,160,230);
+        transition: 0.5s ease-in-out;
+        box-shadow: 2px 2px 3px #555;
+        border: 1px solid rgb(60,180,240);
+    }
+
+        .accomodation-header a:hover {
+            border: 1px solid white;
+        }
+
+
+/* PLACES TO STAY ------------------------
+    -----------------------------------------------------------------------------------------------*/
+
+.placesToStay-header {
+    margin-top: 60px;
+    background-image: url('../images/StudentLife/PlacesToStay-header.jpg');
+    background-position: center;
+    background-size: cover;
+    min-height: 350px;
+}
+
+
+    .placesToStay-header div.container {
+        padding-top: 120px;
+        text-align: left;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .placesToStay-header h1 strong {
+        color: orangered;
+    }
+
+
+    .placesToStay-header div p {
+        color: white;
+        margin-left: 5%;
+        margin-top: 10px;
+        text-shadow: 1px 1px 1px rgba(0,0,0,0.6);
+    }
+
+    .placesToStay-header h1 {
+        display: inline-block;
+        font-size: 2rem;
+        padding: 10px 20px;
+        color: #333;
+        text-align: left;
+        background-color: rgba(255,255,255,0.8);
+        box-shadow: 2px 2px 3px #555;
+    }
+
+    .placesToStay-header a {
+        display: inline-block;
+        font-size: 1rem;
+        padding: 5px 20px;
+        text-transform: uppercase;
+        text-decoration: none;
+        color: white;
+        cursor: pointer;
+        background-color: rgb(40,160,230);
+        transition: 0.5s ease-in-out;
+        box-shadow: 2px 2px 3px #555;
+        border: 1px solid rgb(60,180,240);
+    }
+
+        .placesToStay-header a:hover {
+            border: 1px solid white;
+        }
+
+.acc2-llist-div {
+    float: left;
+    width: 50%;
+    padding: 15px;
+    border: 1px solid white;
+    min-height: 170px;
+    background-color: rgba(30,120,190,0.1);
+}
+
+.lllist2 {
+    background-color: rgba(30,120,190,0.3);
+}
+
+
+.lllist2-mark {
+    background-color: rgba(30,120,190,0.3);
+    position: relative;
+}
+
+    .lllist2-mark:after {
+        content: '';
+        position: absolute;
+        top: 5px;
+        right: 5px;
+        background-image: url('../images/mark-ico.svg');
+        background-position: center;
+        background-size: cover;
+        padding: 20px;
+    }
+
+
+
+/* TRANSPORT TRAFFIC ------------------------
+    -----------------------------------------------------------------------------------------------*/
+
+.transport-header {
+    margin-top: 60px;
+    background-image: url('../images/StudentLife/traffic-header.jpg');
+    background-position: center;
+    background-size: cover;
+    min-height: 350px;
+}
+
+    .transport-header div.container {
+        padding-top: 100px;
+        text-align: left;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .transport-header h1 strong {
+        color: orangered;
+    }
+
+
+    .transport-header div p {
+        color: white;
+        margin-left: 5%;
+        margin-top: 10px;
+        text-shadow: 1px 1px 1px rgba(0,0,0,0.6);
+    }
+
+    .transport-header h1 {
+        display: inline-block;
+        font-size: 2rem;
+        padding: 10px 20px;
+        color: #333;
+        text-align: left;
+        background-color: rgba(255,255,255,0.8);
+        box-shadow: 2px 2px 3px #555;
+    }
+
+    .transport-header a {
+        margin-top: 5px;
+        display: inline-block;
+        font-size: 1rem;
+        padding: 5px 20px;
+        text-transform: uppercase;
+        text-decoration: none;
+        color: white;
+        cursor: pointer;
+        background-color: rgb(40,160,230);
+        transition: 0.5s ease-in-out;
+        box-shadow: 2px 2px 3px #555;
+        border: 1px solid rgb(60,180,240);
+    }
+
+        .transport-header a:hover {
+            border: 1px solid white;
+        }
+
+/* TRAFFIC INFO ------------------------
+    -----------------------------------------------------------------------------------------------*/
+
+.trafficInfo-header {
+    margin-top: 60px;
+    background-image: url('../images/StudentLife/transportation-2-header.jpg');
+    background-position: center;
+    background-size: cover;
+    min-height: 350px;
+}
+
+    .trafficInfo-header div.container {
+        padding-top: 100px;
+        text-align: left;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .trafficInfo-header h1 strong {
+        color: orangered;
+    }
+
+
+    .trafficInfo-header div p {
+        color: white;
+        margin-left: 5%;
+        margin-top: 10px;
+        text-shadow: 1px 1px 1px rgba(0,0,0,0.6);
+    }
+
+    .trafficInfo-header h1 {
+        display: inline-block;
+        font-size: 2rem;
+        padding: 10px 20px;
+        color: #333;
+        text-align: left;
+        background-color: rgba(255,255,255,0.8);
+        box-shadow: 2px 2px 3px #555;
+    }
+
+    .trafficInfo-header a {
+        margin-top: 5px;
+        display: inline-block;
+        font-size: 1rem;
+        padding: 5px 20px;
+        text-transform: uppercase;
+        text-decoration: none;
+        color: white;
+        cursor: pointer;
+        background-color: rgb(40,160,230);
+        transition: 0.5s ease-in-out;
+        box-shadow: 2px 2px 3px #555;
+        border: 1px solid rgb(60,180,240);
+    }
+
+        .trafficInfo-header a:hover {
+            border: 1px solid white;
+        }
+
+
+/* DIRECTIONS ------------------------
+    -----------------------------------------------------------------------------------------------*/
+
+.directions-header {
+    margin-top: 60px;
+    background-image: url('../images/StudentLife/transportation-3-header.jpg');
+    background-position: center;
+    background-size: cover;
+    min-height: 350px;
+}
+
+    .directions-header div.container {
+        padding-top: 100px;
+        text-align: left;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .directions-header h1 strong {
+        color: orangered;
+    }
+
+
+    .directions-header div p {
+        color: white;
+        margin-left: 5%;
+        margin-top: 10px;
+        text-shadow: 1px 1px 1px rgba(0,0,0,0.6);
+    }
+
+    .directions-header h1 {
+        display: inline-block;
+        font-size: 2rem;
+        padding: 10px 20px;
+        color: #333;
+        text-align: left;
+        background-color: rgba(255,255,255,0.8);
+        box-shadow: 2px 2px 3px #555;
+    }
+
+    .directions-header a {
+        margin-top: 5px;
+        display: inline-block;
+        font-size: 1rem;
+        padding: 5px 20px;
+        text-transform: uppercase;
+        text-decoration: none;
+        color: white;
+        cursor: pointer;
+        background-color: rgb(40,160,230);
+        transition: 0.5s ease-in-out;
+        box-shadow: 2px 2px 3px #555;
+        border: 1px solid rgb(60,180,240);
+    }
+
+        .directions-header a:hover {
+            border: 1px solid white;
+        }
+
+/* SPORTS ------------------------
+    -----------------------------------------------------------------------------------------------*/
+.sports-header {
+    margin-top: 60px;
+    background-image: url('../images/StudentLife/sports-header.jpg');
+    background-position: center;
+    background-size: cover;
+    min-height: 350px;
+}
+
+    .sports-header div.container {
+        padding-top: 120px;
+        text-align: left;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .sports-header h1 strong {
+        color: orangered;
+    }
+
+
+    .sports-header div p {
+        color: white;
+        margin-left: 5%;
+        margin-top: 10px;
+        text-shadow: 1px 1px 1px rgba(0,0,0,0.6);
+    }
+
+    .sports-header h1 {
+        display: inline-block;
+        font-size: 2rem;
+        padding: 10px 20px;
+        color: #333;
+        text-align: left;
+        background-color: rgba(255,255,255,0.8);
+        box-shadow: 2px 2px 3px #555;
+    }
+
+    .sports-header a {
+        display: inline-block;
+        font-size: 1rem;
+        padding: 5px 20px;
+        text-transform: uppercase;
+        text-decoration: none;
+        color: white;
+        cursor: pointer;
+        background-color: rgb(40,160,230);
+        transition: 0.5s ease-in-out;
+        box-shadow: 2px 2px 3px #555;
+        border: 1px solid rgb(60,180,240);
+    }
+
+        .sports-header a:hover {
+            border: 1px solid white;
+        }
+
+
+/* CULTURE ------------------------
+    -----------------------------------------------------------------------------------------------*/
+.culture-header {
+    margin-top: 60px;
+    background-image: url('../images/StudentLife/culture-header.jpg');
+    background-position: center;
+    background-size: cover;
+    min-height: 350px;
+}
+
+    .culture-header div.container {
+        padding-top: 120px;
+        text-align: left;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .culture-header h1 strong {
+        color: orangered;
+    }
+
+
+    .culture-header div p {
+        color: white;
+        margin-left: 5%;
+        margin-top: 10px;
+        text-shadow: 1px 1px 1px rgba(0,0,0,0.6);
+    }
+
+    .culture-header h1 {
+        display: inline-block;
+        font-size: 2rem;
+        padding: 10px 20px;
+        color: #333;
+        text-align: left;
+        background-color: rgba(255,255,255,0.8);
+        box-shadow: 2px 2px 3px #555;
+    }
+
+    .culture-header a {
+        display: inline-block;
+        font-size: 1rem;
+        padding: 5px 20px;
+        text-transform: uppercase;
+        text-decoration: none;
+        color: white;
+        cursor: pointer;
+        background-color: rgb(40,160,230);
+        transition: 0.5s ease-in-out;
+        box-shadow: 2px 2px 3px #555;
+        border: 1px solid rgb(60,180,240);
+    }
+
+        .culture-header a:hover {
+            border: 1px solid white;
+        }
+
+
+/* MUSEUM ------------------------
+    -----------------------------------------------------------------------------------------------*/
+.museum-header {
+    margin-top: 60px;
+    background-image: url('../images/StudentLife/museum-header.jpg');
+    background-position: center;
+    background-size: cover;
+    min-height: 350px;
+}
+
+    .museum-header div.container {
+        padding-top: 120px;
+        text-align: left;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .museum-header h1 strong {
+        color: orangered;
+    }
+
+
+    .museum-header div p {
+        color: white;
+        margin-left: 5%;
+        margin-top: 10px;
+        text-shadow: 1px 1px 1px rgba(0,0,0,0.6);
+    }
+
+    .museum-header h1 {
+        display: inline-block;
+        font-size: 2rem;
+        padding: 10px 20px;
+        color: #333;
+        text-align: left;
+        background-color: rgba(255,255,255,0.8);
+        box-shadow: 2px 2px 3px #555;
+    }
+
+    .museum-header a {
+        display: inline-block;
+        font-size: 1rem;
+        padding: 5px 20px;
+        text-transform: uppercase;
+        text-decoration: none;
+        color: white;
+        cursor: pointer;
+        background-color: rgb(40,160,230);
+        transition: 0.5s ease-in-out;
+        box-shadow: 2px 2px 3px #555;
+        border: 1px solid rgb(60,180,240);
+    }
+
+        .museum-header a:hover {
+            border: 1px solid white;
+        }
+
+/* BANK ------------------------
+    -----------------------------------------------------------------------------------------------*/
+.bank-header {
+    margin-top: 60px;
+    background-image: url('../images/StudentLife/bank-header.jpg');
+    background-position: center;
+    background-size: cover;
+    min-height: 350px;
+}
+
+    .bank-header div.container {
+        padding-top: 120px;
+        text-align: left;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .bank-header h1 strong {
+        color: orangered;
+    }
+
+
+    .bank-header div p {
+        color: white;
+        margin-left: 5%;
+        margin-top: 10px;
+        text-shadow: 1px 1px 1px rgba(0,0,0,0.6);
+    }
+
+    .bank-header h1 {
+        display: inline-block;
+        font-size: 2rem;
+        padding: 10px 20px;
+        color: #333;
+        text-align: left;
+        background-color: rgba(255,255,255,0.8);
+        box-shadow: 2px 2px 3px #555;
+    }
+
+    .bank-header a {
+        display: inline-block;
+        font-size: 1rem;
+        padding: 5px 20px;
+        text-transform: uppercase;
+        text-decoration: none;
+        color: white;
+        cursor: pointer;
+        background-color: rgb(40,160,230);
+        transition: 0.5s ease-in-out;
+        box-shadow: 2px 2px 3px #555;
+        border: 1px solid rgb(60,180,240);
+    }
+
+        .bank-header a:hover {
+            border: 1px solid white;
+        }
+
+/* APP ------------------------
+    -----------------------------------------------------------------------------------------------*/
+.app-header {
+    margin-top: 60px;
+    background-image: url('../images/StudentLife/app-header.jpg');
+    background-position: center;
+    background-size: cover;
+    min-height: 350px;
+}
+
+    .app-header div.container {
+        padding-top: 120px;
+        text-align: left;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .app-header h1 strong {
+        color: orangered;
+    }
+
+
+    .app-header div p {
+        color: white;
+        margin-left: 5%;
+        margin-top: 10px;
+        text-shadow: 1px 1px 1px rgba(0,0,0,0.6);
+    }
+
+    .app-header h1 {
+        display: inline-block;
+        font-size: 2rem;
+        padding: 10px 20px;
+        color: #333;
+        text-align: left;
+        background-color: rgba(255,255,255,0.8);
+        box-shadow: 2px 2px 3px #555;
+    }
+
+    .app-header a {
+        display: inline-block;
+        font-size: 1rem;
+        padding: 5px 20px;
+        text-transform: uppercase;
+        text-decoration: none;
+        color: white;
+        cursor: pointer;
+        background-color: rgb(40,160,230);
+        transition: 0.5s ease-in-out;
+        box-shadow: 2px 2px 3px #555;
+        border: 1px solid rgb(60,180,240);
+    }
+
+        .app-header a:hover {
+            border: 1px solid white;
+        }
+
+.AppSection img {
+    width: 35%;
+}
+
+/* APP ------------------------
+    -----------------------------------------------------------------------------------------------*/
+
+.tea-header {
+    margin-top: 60px;
+    background-image: url('../images/StudentLife/tea-header.jpg');
+    background-position: center;
+    background-size: cover;
+    min-height: 350px;
+}
+
+    .tea-header div.container {
+        padding-top: 120px;
+        text-align: left;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .tea-header h1 strong {
+        color: orangered;
+    }
+
+
+    .tea-header div p {
+        color: white;
+        margin-left: 5%;
+        margin-top: 10px;
+        text-shadow: 1px 1px 1px rgba(0,0,0,0.6);
+    }
+
+    .tea-header h1 {
+        display: inline-block;
+        font-size: 2rem;
+        padding: 10px 20px;
+        color: #333;
+        text-align: left;
+        background-color: rgba(255,255,255,0.8);
+        box-shadow: 2px 2px 3px #555;
+    }
+
+    .tea-header a {
+        display: inline-block;
+        font-size: 1rem;
+        padding: 5px 20px;
+        text-transform: uppercase;
+        text-decoration: none;
+        color: white;
+        cursor: pointer;
+        background-color: rgb(40,160,230);
+        transition: 0.5s ease-in-out;
+        box-shadow: 2px 2px 3px #555;
+        border: 1px solid rgb(60,180,240);
+    }
+
+        .tea-header a:hover {
+            border: 1px solid white;
+        }
+
+.tea-section img {
+    width: 30%;
+}
+
+/* Media queries
+-------------------------------------------------------------------------------*/
+
+@media screen and (max-width: 800px) {
+
+    .acc2-llist-div {
+        min-height: 190px;
+    }
+}
+
+
+
+@media screen and (max-width: 700px) {
+    .holder-text-div-wimg img {
+        width: 100%;
+    }
+
+    .holder-text-div-wimgL img {
+        width: 100%;
+    }
+
+    .acc2-llist-div {
+        float: none;
+        width: 100%;
+    }
+}

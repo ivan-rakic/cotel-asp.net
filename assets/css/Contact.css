@@ -1,0 +1,112 @@
+﻿.contact-info-sec {
+    margin-top: 62px;
+    min-height: 500px;
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+
+.contact-left-div {
+    float: left;
+    width: 40%;
+}
+
+    .contact-left-div address {
+        color: #999;
+        font-style: normal;
+    }
+
+    .contact-left-div a {
+        color: inherit;
+    }
+
+        .contact-left-div a:hover {
+            color: darkgreen;
+        }
+
+
+.contact-info-sec h2 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.contact-info-sec h3 {
+    color: orange;
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+}
+
+.contact-right-div {
+    float: left;
+    width: 60%;
+}
+
+    .contact-right-div input {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 20px;
+        display: block;
+        border: 1px solid silver;
+        color: #666;
+    }
+
+    .contact-right-div textarea {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 20px;
+        display: block;
+        border: 1px solid silver;
+        color: #666;
+        resize: none;
+        min-height: 300px;
+    }
+
+    .contact-right-div .btnSubmit {
+        padding: 10px;
+        display: block;
+        border: none;
+        background-color: orange;
+        color: white;
+        width: 100px;
+        -webkit-transition: background-color 1s; /* Safari */
+        transition: background-color 1s;
+    }
+
+        .contact-right-div .btnSubmit:hover {
+            background-color: orangered;
+        }
+
+
+/* Media queries
+-------------------------------------------------------------------------------*/
+
+@media screen and (max-width: 1000px) {
+
+    .contact-left-div {
+        padding: 0 10px;
+    }
+
+    .contact-right-div {
+        padding-right: 15px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+
+    .contact-info-sec {
+        margin-top: 50px;
+    }
+
+    .contact-left-div {
+        text-align: center;
+        float: none;
+        width: 100%;
+    }
+
+    .contact-right-div {
+        margin-top: 50px;
+        padding-left: 15px;
+        float: none;
+        width: 100%;
+    }
+}

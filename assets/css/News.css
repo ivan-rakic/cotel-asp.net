@@ -1,0 +1,335 @@
+﻿
+.news-1-back {
+    margin-top: 62px;
+    height: 340px;
+    background-color: silver;
+    background-image: url('../images/news/header-news-1.jpg');
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    text-align: center;
+}
+
+    .news-1-back h1 {
+        font-size: 3rem;
+        font-weight: bold;
+        background-color: white;
+        margin-top: 90px;
+        display: inline-block;
+        padding: 10px 20px;
+        color: #333;
+        background-color: rgba(255,255,255,0.8);
+        box-shadow: 2px 2px 3px #555;
+    }
+
+.news-divider {
+    height: 1px;
+    background-color: silver;
+    margin: 20px 0;
+}
+
+
+.news-first-div {
+    display: block;
+    width: 100%;
+}
+
+    .news-first-div img {
+        display: inline;
+        float: left;
+    }
+
+    .news-first-div h3 {
+        padding-left: 10px;
+        font-size: 1.8rem;
+        text-align: left;
+        line-height: 160%;
+        font-weight: bold;
+    }
+
+    .news-first-div .news-3-h3 {
+        padding-left: 10px;
+        line-height: 100px;
+    }
+
+    .news-first-div strong {
+        color: orangered;
+    }
+
+article {
+    padding: 30px 10px;
+    margin-bottom: 20px;
+}
+
+.article-wide-img {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.news-left {
+    float: left;
+    width: 69%;
+    padding: 0 15px 15px;
+    border-right: 1px solid silver;
+    border-left: 1px solid silver;
+}
+
+.news-left-div-inside {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding: 10px;
+    text-align: center;
+    font-style: italic;
+    border-left: 2px solid red;
+}
+
+
+    .news-left-div-inside p {
+        font-size: 1.2rem;
+    }
+
+    .news-left-div-inside strong {
+        color: orangered;
+    }
+
+.news-right {
+    margin-left: 1%;
+    float: left;
+    width: 30%;
+    padding: 0 10px;
+}
+
+    .news-right div {
+        font-size: 1.5rem;
+        margin-bottom: 20px;
+        padding: 10px;
+        /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#eaa24b+0,f6e6b4+100 */
+        background: rgb(234,162,75); /* Old browsers */
+        background: -moz-linear-gradient(top, rgba(234,162,75,1) 0%, rgba(246,230,180,1) 100%); /* FF3.6-15 */
+        background: -webkit-linear-gradient(top, rgba(234,162,75,1) 0%,rgba(246,230,180,1) 100%); /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(to bottom, rgba(234,162,75,1) 0%,rgba(246,230,180,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eaa24b', endColorstr='#f6e6b4',GradientType=0 ); /* IE6-9 */
+    }
+
+    .news-right li {
+        font-size: 1.1rem;
+        margin-bottom: 10px;
+        padding: 25px 10px;
+    }
+
+        .news-right li a {
+            font-weight: bold;
+            text-decoration: none;
+            color: white;
+            cursor: pointer;
+            text-shadow: 1px 1px 1px rgba(0,0,0,0.6);
+        }
+
+            .news-right li a:hover {
+                color: skyblue;
+            }
+
+.news-left h2 {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+    padding: 10px;
+    font-weight: bold;
+}
+
+#lead-li-1 {
+    background-image: url('../images/news/news-lead-1.jpg');
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#lead-li-2 {
+    background-image: url('../images/news/news-lead-2.jpg');
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#lead-li-3 {
+    background-image: url('../images/news/news-lead-3.jpg');
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#lead-li-4 {
+    background-image: url('../images/news/news-lead-4.jpg');
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+
+.h2-blueish {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#7abcff+0,60abf8+44,4096ee+100;Blue+3D+%2314 */
+    background: rgb(122,188,255); /* Old browsers */
+    background: -moz-linear-gradient(-45deg, rgba(122,188,255,1) 0%, rgba(96,171,248,1) 44%, rgba(64,150,238,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg, rgba(122,188,255,1) 0%,rgba(96,171,248,1) 44%,rgba(64,150,238,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg, rgba(122,188,255,1) 0%,rgba(96,171,248,1) 44%,rgba(64,150,238,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7abcff', endColorstr='#4096ee',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+.h2-greenish {
+    margin: 20px 0;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#cdeb8e+0,a5c956+100;Green+3D+%232 */
+    background: rgb(205,235,142); /* Old browsers */
+    background: -moz-linear-gradient(-45deg, rgba(205,235,142,1) 0%, rgba(165,201,86,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg, rgba(205,235,142,1) 0%,rgba(165,201,86,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg, rgba(205,235,142,1) 0%,rgba(165,201,86,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cdeb8e', endColorstr='#a5c956',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+.h2-orangeish {
+    margin: 20px 0;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#e2c668+0,fcb046+100 */
+    background: rgb(226,198,104); /* Old browsers */
+    background: -moz-linear-gradient(-45deg, rgba(226,198,104,1) 0%, rgba(252,176,70,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg, rgba(226,198,104,1) 0%,rgba(252,176,70,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg, rgba(226,198,104,1) 0%,rgba(252,176,70,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e2c668', endColorstr='#fcb046',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+
+.news-2-h2 {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.news-important-stuff {
+    margin-top: 30px;
+    color: red;
+    text-align: center;
+}
+
+    .news-important-stuff p {
+        font-size: 130%;
+    }
+
+
+
+
+article p {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+}
+
+/*.article3 p {
+    line-height: 150%;
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+    text-align: justify;
+}*/
+
+.news-list-holder {
+    width: 100%;
+}
+
+.header-ul {
+    font-size: 1.3rem;
+    font-weight: bold;
+    padding: 0;
+    margin: 0;
+    background-color: gray;
+    color: white;
+}
+
+.news-list-holder table {
+    list-style: none;
+    width: 100%;
+    border: 1px solid silver;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+    .news-list-holder table tr {
+        border-top: 1px solid silver;
+    }
+
+        .news-list-holder table tr:nth-child(even) {
+            background-color: whitesmoke;
+        }
+
+        .news-list-holder table tr td {
+            padding: 5px 0;
+        }
+
+.news-list-holder .news-li-1 {
+    width: 10%;
+    box-sizing: border-box;
+    text-align: center;
+    border-right: 1px solid silver;
+}
+
+.news-list-holder .news-li-2 {
+    width: 10%;
+    box-sizing: border-box;
+    text-align: center;
+    border-right: 1px solid silver;
+}
+
+.news-list-holder .news-li-3 {
+    width: 25%;
+    box-sizing: border-box;
+    text-align: center;
+    border-right: 1px solid silver;
+}
+
+.news-list-holder .news-li-4 {
+    box-sizing: border-box;
+    width: 45%;
+    text-align: center;
+    border-right: 1px solid silver;
+}
+
+.news-list-holder .news-li-5 {
+    width: 10%;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 1000px) {
+
+    /*article {
+        margin-top: 60px;
+        padding: 50px 10px;
+        text-align: center;
+    }*/
+
+}
+
+@media screen and (max-width: 600px) {
+
+
+    .news-left {
+        float: none;
+        width: 100%;
+        padding: 0 15px 15px;
+        border-right: 1px solid silver;
+        border-left: 1px solid silver;
+    }
+
+    .news-right {
+        margin-top: 30px;
+        margin-left: 0%;
+        float: none;
+        width: 100%;
+        padding: 0 10px;
+    }
+
+    .news-first-div .news-3-h3 {
+        line-height: normal;
+    }
+}

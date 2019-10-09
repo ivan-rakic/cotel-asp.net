@@ -1,0 +1,369 @@
+﻿.tech-main-sec {
+    margin-top: 62px;
+    padding: 80px 0;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffa500+0,ffa84c+100 */
+    background-color: orange;
+    background-image: url('../images/climpek.png');
+}
+
+.tech-intro-div {
+    min-height: 400px;
+}
+
+.intro-div-left {
+    float: left;
+    width: 45%;
+    background-image: url('../images/Tech/tech-1.png');
+    background-position: top left;
+    background-size: contain;
+    background-repeat: no-repeat;
+    min-height: 400px;
+}
+
+.intro-div-right {
+    float: left;
+    width: 55%;
+    padding: 30px 50px;
+}
+
+    .intro-div-right h2 {
+        font-size: 2rem;
+        font-weight: bold;
+        margin-bottom: 30px;
+    }
+
+    .intro-div-right p {
+        font-size: 1.2rem;
+        padding-right: 200px;
+        line-height: 150%;
+    }
+
+    .intro-div-right .tech-intro-links {
+        padding-right: 200px;
+        margin-top: 50px;
+    }
+
+    .intro-div-right a {
+        color: white;
+        font-size: 1.2rem;
+        text-decoration: none;
+        line-height: 200%;
+    }
+
+        .intro-div-right a:hover {
+            color: green;
+        }
+
+.tech-inner-l {
+    float: left;
+    width: 60%;
+}
+
+.tech-inner-r {
+    float: left;
+    width: 40%;
+    text-align: right;
+}
+
+/* FIRST ARTICLE ------------------------
+    -------------------------------------------------*/
+
+.tech-first-art {
+    margin-top: 80px;
+    padding: 60px;
+    min-height: 400px;
+    background-color: white;
+}
+
+    .tech-first-art img {
+        text-align: right;
+    }
+
+    .tech-first-art h3 {
+        margin-top: 30px;
+        display: inline-block;
+        font-size: 1.6rem;
+        margin-bottom: 50px;
+    }
+
+    .tech-first-art p {
+        line-height: 150%;
+        display: inline-block;
+        font-size: 1.2rem;
+        float: left;
+        padding-right: 50px;
+    }
+
+/* SECOND ARTICLE ------------------------
+    -------------------------------------------------*/
+
+.tech-second-art {
+    padding: 60px;
+    min-height: 400px;
+    background-color: #ECEFF1;
+    background-image: url('../images/absurdity.png');
+    box-shadow: inset 0px 0px 3px silver;
+}
+
+    .tech-second-art img {
+        text-align: right;
+    }
+
+    .tech-second-art h3 {
+        margin-top: 30px;
+        display: inline-block;
+        font-size: 1.6rem;
+        margin-bottom: 50px;
+    }
+
+    .tech-second-art p {
+        line-height: 150%;
+        display: inline-block;
+        font-size: 1.2rem;
+        float: left;
+        padding-right: 50px;
+    }
+
+/* THIRD ARTICLE ------------------------
+    -------------------------------------------------*/
+
+.tech-third-art {
+    padding: 60px;
+    min-height: 400px;
+    background-color: white;
+}
+
+    .tech-third-art img {
+        text-align: right;
+    }
+
+    .tech-third-art h3 {
+        margin-top: 30px;
+        display: inline-block;
+        font-size: 1.6rem;
+        margin-bottom: 50px;
+    }
+
+    .tech-third-art p {
+        line-height: 150%;
+        display: inline-block;
+        font-size: 1.2rem;
+        float: left;
+        padding-right: 50px;
+    }
+
+/* FOURTH ARTICLE ------------------------
+    -------------------------------------------------*/
+
+.tech-fourth-art {
+    padding: 60px;
+    min-height: 400px;
+    background-color: #ECEFF1;
+    background-image: url('../images/absurdity.png');
+    box-shadow: inset 0px 0px 3px silver;
+}
+
+    .tech-fourth-art img {
+        text-align: right;
+    }
+
+    .tech-fourth-art h3 {
+        margin-top: 30px;
+        display: inline-block;
+        font-size: 1.6rem;
+        margin-bottom: 50px;
+    }
+
+    .tech-fourth-art p {
+        line-height: 150%;
+        display: inline-block;
+        font-size: 1.2rem;
+        float: left;
+        padding-right: 50px;
+    }
+
+/* OUTRO DIV ------------------------
+    -------------------------------------------------*/
+
+.tech-outro-div {
+    padding-top: 80px;
+    min-height: 400px;
+}
+
+.outro-div-left {
+    float: left;
+    width: 55%;
+    padding: 30px 50px;
+    text-align: right;
+}
+
+    .outro-div-left h2 {
+        display: block;
+        font-size: 2rem;
+        font-weight: bold;
+        margin-bottom: 30px;
+    }
+
+    .outro-div-left p {
+        line-height: 150%;
+        display: block;
+        font-size: 1.2rem;
+    }
+
+.outro-div-right {
+    float: left;
+    width: 45%;
+    background-image: url('../images/Tech/tech-2.png');
+    background-position: top left;
+    background-size: contain;
+    background-repeat: no-repeat;
+    min-height: 400px;
+}
+
+
+/* Media queries
+-------------------------------------------------------------------------------*/
+
+@media screen and (max-width: 1300px) {
+
+    .intro-div-right p {
+        padding-right: 50px;
+    }
+
+    .intro-div-right .tech-intro-links {
+        padding-right: 50px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+
+    .intro-div-left {
+        float: none;
+        width: 100%;
+    }
+
+    .intro-div-right {
+        float: none;
+        width: 100%;
+        padding: 10px 15px;
+        text-align: center;
+    }
+
+        .intro-div-right p {
+            padding-right: 0;
+        }
+
+        .intro-div-right .tech-intro-links {
+            padding-right: 0px;
+        }
+
+
+    .outro-div-left {
+        float: none;
+        width: 100%;
+        padding: 0px 30px 30px;
+        text-align: center;
+    }
+
+    .outro-div-right {
+        float: none;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    .tech-main-sec {
+        margin-top: 55px;
+        padding: 80px 0;
+        /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffa500+0,ffa84c+100 */
+        background-color: orange;
+        background-image: url('../images/climpek.png');
+    }
+
+    .intro-div-left {
+        min-height: 300px;
+        background-size: cover;
+    }
+
+    .outro-div-right {
+        min-height: 300px;
+        background-size: cover;
+        background-position: top center;
+    }
+
+    .tech-inner-l {
+        float: none;
+        width: 100%;
+    }
+
+    .tech-inner-r {
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+
+    .tech-first-art {
+        margin-top: 50px;
+        padding: 20px;
+        text-align: center;
+    }
+
+        .tech-first-art h3 {
+            margin-top: 20px;
+            margin-bottom: 30px;
+        }
+
+        .tech-first-art p {
+            float: none;
+            padding-right: 0px;
+        }
+
+    .tech-second-art {
+        margin-top: 50px;
+        padding: 20px;
+        text-align: center;
+    }
+
+        .tech-second-art h3 {
+            margin-top: 20px;
+            margin-bottom: 30px;
+        }
+
+        .tech-second-art p {
+            float: none;
+            padding-right: 0px;
+        }
+
+    .tech-third-art {
+        margin-top: 50px;
+        padding: 20px;
+        text-align: center;
+    }
+
+        .tech-third-art h3 {
+            margin-top: 20px;
+            margin-bottom: 30px;
+        }
+
+        .tech-third-art p {
+            float: none;
+            padding-right: 0px;
+        }
+
+    .tech-fourth-art {
+        margin-top: 50px;
+        padding: 20px;
+        text-align: center;
+    }
+
+        .tech-fourth-art h3 {
+            margin-top: 20px;
+            margin-bottom: 30px;
+        }
+
+        .tech-fourth-art p {
+            float: none;
+            padding-right: 0px;
+        }
+}
